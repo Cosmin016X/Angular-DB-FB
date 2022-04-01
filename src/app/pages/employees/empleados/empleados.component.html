@@ -1,0 +1,27 @@
+<div clase= "table-responsive">
+    <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">E-Mail</th>
+            <th scope="col">Fecha de inicio</th>
+            <th scope="col">Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+    
+          <tr class="table-info" *ngFor="let item of [0, 1, 2, 3]">
+            <th scope="row">Juan Luis Estela</th>
+            <td>jlpop60@gmail.com</td>
+            <td>1/04/2022</td>
+            <td>
+                <button type="button" class="btn btn-outline-success m-2"(click)="onGoToConfirm(item)">Confirmar</button>
+                <button type="button" class="btn btn-outline-warning m-2"(click)="onGoToEdit(item)">Editar</button>
+                <button type="button" class="btn btn-outline-danger m-2"(click)="onGoToDelete(item)">Eliminar</button>
+            </td>
+          </tr>
+    
+        </tbody>
+      </table>
+    
+</div>
