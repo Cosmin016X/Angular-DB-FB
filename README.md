@@ -1,27 +1,62 @@
-# AngularControlDbfb
+# Angular-DB-FB
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+Un panel de control web para una empresa.
 
-## Development server
+## Comenzando 🚀
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+El proyecto esta programado con una estructura de Angular🟥 (https://angular.io/) y con base de datos futura en Firebase🔥 (https://firebase.google.com/)
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Pre-requisitos 📋
 
-## Build
+_Que cosas necesitas para instalar el software y como instalarlas_
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```
+Un IDE (VSC, NOTEPATH++, SUBLIMETEXT...)
+Tener instalado NPM
+Tener instalado NODE.JS 16.14.2 > Futuras versiones
+Ganas de programar 🥰
 
-## Running unit tests
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Instalación 🔧
 
-## Running end-to-end tests
+_Como ejecutar el entorno de trabajo de Angular_
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+git clone https://github.com/Cosmin016X/Angular-DB-FB.git
 
-## Further help
+npm install
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+ng serve
+
+```
+
+## Construido con 🛠️
+
+* [Angular](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
+* [NODE.JS](https://maven.apache.org/) - Manejador de dependencias
+* [NPM](https://www.npmjs.com/) - Usado para generar instalar modulos y librerias
+* [Boostrap 5](https://github.com/twbs) - Usado para la estetica
+* [BoostWatch](https://github.com/thomaspark/bootswatch/) - Usado para la estetica
+
+
+## Autores ✒️
+
+* **Cosmin Rusu** - *Todo el proyecto en solitario* - [MinX](https://github.com/Cosmin016X)
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia (APACHE 2.0) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+
+## Expresiones de Gratitud 🎁
+
+* Comenta a otros sobre este proyecto 📢
+* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
+* Da las gracias públicamente 🤓.
+* Visita nuestra web: https://firecorp.es/
+
+
+
+---
+⌨️ con ❤️ por [MinX](https://github.com/Cosmin016X) 😊
