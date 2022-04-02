@@ -21,12 +21,14 @@ export class EmpleadosComponent implements OnInit {
   }
   
   onGoToConfirm(item: any): void {
-    this.navigationExtras.state['value'] = item;
+    // @ts-ignore
+    this.navigationExtras.state.value = item;
     this.router.navigate(['/empleados/confirmar'], this.navigationExtras);
   }
 
   onGoToEdit(item: any): void {
-    this.navigationExtras.state['value'] = item;
+     // @ts-ignore
+    this.navigationExtras.state.value = item;
     this.router.navigate(['/empleados/editar'], this.navigationExtras);
   }
 
