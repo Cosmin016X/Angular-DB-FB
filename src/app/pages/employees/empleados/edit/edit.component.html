@@ -1,0 +1,37 @@
+<div class="card mt-2">
+    <div class="card-header">
+        <h4 class="card-title">Editar Empleado</h4>
+    </div>
+    <div class="card body mt-2">
+        <!-- tabla para añadir expansion de datos de empleado -->
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                Nombre: <h5>Juan Luis Estela</h5>
+            </li>
+            <li class="list-group-item">
+                Email: <h5>jlpop60@gmail.com</h5>
+            </li>
+            <li class="list-group-item">
+                Fecha de inicio:
+                <h6>
+                <input type="date" id="start" 
+                    name="trip-start"
+                    value="2022-04-01"
+                    min="2010-01-01" max="2040-12-31"></h6>
+            </li>
+            <li class="list-group-item">
+                Acciones: <h5>Papeleo</h5>
+            </li>
+        </ul>
+
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-outline-warning" (click)="onGoToEdit()">Editar</button>
+            <button type="button" class="btn btn-outline-danger">Eliminar</button>
+        </div> {{empleado | json}}
+            
+
+    </div>
+    
+</div>
+<button type="button" href="/src/app/pages/employees/empleados/empleados.component.html"class="btn btn-outline-dark">Volver</button>
+

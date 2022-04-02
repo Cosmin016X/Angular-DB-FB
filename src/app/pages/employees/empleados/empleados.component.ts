@@ -23,13 +23,13 @@ export class EmpleadosComponent implements OnInit {
   onGoToConfirm(item: any): void {
     // @ts-ignore
     this.navigationExtras.state.value = item;
-    this.router.navigate(['/empleados/confirmar'], this.navigationExtras);
+    this.router.navigate(['confirm'], this.navigationExtras);
   }
 
   onGoToEdit(item: any): void {
      // @ts-ignore
     this.navigationExtras.state.value = item;
-    this.router.navigate(['/empleados/editar'], this.navigationExtras);
+    this.router.navigate(['edit'], this.navigationExtras);
   }
 
   onGoToDelete(item: any): void {alert ('Borrado');
