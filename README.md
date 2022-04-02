@@ -47,7 +47,7 @@ ng serve
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (APACHE 2.0) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia (APACHE 2.0) - mira el archivo [LICENSE.md](LICENSE) para detalles
 
 ## Expresiones de Gratitud 🎁
 
