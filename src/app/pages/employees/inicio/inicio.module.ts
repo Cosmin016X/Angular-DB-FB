@@ -12,6 +12,9 @@ import { InicioComponent } from './inicio.component';
   imports: [
     CommonModule,
     InicioRoutingModule
+    
   ]
 })
 export class InicioModule { }
+
+
