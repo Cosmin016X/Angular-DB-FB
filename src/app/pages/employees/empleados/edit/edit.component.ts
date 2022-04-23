@@ -28,7 +28,7 @@ export class EditComponent implements OnInit {
   onGoToEdit(): void {
     // @ts-ignore
    this.navigationExtras.state.value = this.empleado;
-   this.router.navigate(['edit'], this.navigationExtras);
+   this.router.navigate(['confirm'], this.navigationExtras);
  }
 
 }
